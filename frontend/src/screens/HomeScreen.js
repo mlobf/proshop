@@ -8,7 +8,6 @@ function HomeScreen ()
     return (
         <div>
             <h1>Latest Products</h1>
-
             <Row>
                 { products.map( product => (
                     <Col key={ product._id } sm={ 6 } md={ 6 } Lg={ 6 } xL={ 6 }>
