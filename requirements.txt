@@ -1,0 +1,5 @@
+django==3.2.8
+ipython
+autopep8
+pylint
+black

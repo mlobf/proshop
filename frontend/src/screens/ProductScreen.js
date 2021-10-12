@@ -60,21 +60,13 @@ function ProductScreen ( { match } )
                             </ListGroup.Item>
 
                             <ListGroup>
-                                <Button className='btn-block' disabled={ product.countInStock === 0 } type='button'  >
+                                <Button className='btn-block' disabled={ product.countInStock == 0 } type='button'  >
                                     Add to cart
                                 </Button>
                             </ListGroup>
-
-
-
-
-
                         </ListGroup>
                     </Card>
                 </Col>
-
-
-
             </Row>
         </div>
     );
