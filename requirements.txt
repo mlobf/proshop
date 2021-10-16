@@ -1,4 +1,5 @@
 django==3.2.8
+djangorestframework
 ipython
 autopep8
 pylint
