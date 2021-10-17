@@ -29,8 +29,6 @@ function HomeScreen() {
 
                 }
             </Row>
-
-
         </div>
     );
 }

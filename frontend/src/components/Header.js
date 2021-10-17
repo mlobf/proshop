@@ -1,13 +1,11 @@
 // Now is time to use snippets from ES7 /React/Graph/Native Companents
 // => rfce | React Functional Component
-
 import React from 'react';
 import { Navbar, Nav, Container, Row } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 
-function Header ()
-{
+function Header() {
     return (
         <div>
             <header>
@@ -38,10 +36,6 @@ function Header ()
             </header>
         </div >
     );
-
 }
-
-
-
 
 export default Header;
