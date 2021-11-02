@@ -5,3 +5,4 @@ autopep8
 pylint
 black
 django-cors-headers
+pillow
